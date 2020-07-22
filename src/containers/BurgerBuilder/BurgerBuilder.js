@@ -37,7 +37,6 @@ class BurgerBuilder extends Component {
         return sum > 0;
     }
     purchase = () => {
-        console.log("ATHARVA DESHPANDE");
         this.setState({purchasing:true});
     }
     closed = () => {
